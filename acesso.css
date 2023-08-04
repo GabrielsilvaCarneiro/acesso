@@ -1,0 +1,79 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body{
+    background-color: rgb(120, 120, 120);
+}
+
+@font-face {
+    font-family: PoppinsB;
+    src: url(Font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: SansB;
+    src: url(Font/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: SansR;
+    src: url(Font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: SansS;
+    src: url(Font/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: PoppinsR;
+    src: url(Font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: PoppinsS;
+    src: url(Font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: RobotoB;
+    src: url(Font/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: RobotoM;
+    src: url(Font/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: RobotoR;
+    src: url(Font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoS;
+    src: url(Font/RobotoMono-SemiBold.ttf);
+}
+
+.nome {
+    font: 775 30px 'poppinsB', sans-serif;
+    color: rgb(0, 0, 0); text-align: center; margin-top: 25px; background-color: rgb(255, 255, 255);
+
+}
+.verificacao{
+    width: 150px; height: 50px; border-radius: 30px ; margin-top: 55px; margin-left: 675px; font-size: 15px;
+}
+.numero{
+   display: -ms-flexbox ;font-size: 30px; margin-left: 480px;
+}
+.header{
+    background-color: rgb(117, 117, 117); padding: 1px;
+}
+#resultado{
+    text-align: center; font-size: 25px; margin-top: 25px; background-color: white;
+}
